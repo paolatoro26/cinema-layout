@@ -1,0 +1,59 @@
+*{ font-family: Arial}
+header .col-4{color: white}
+.hero{height: 450px}
+.hero .container{height: 100%}
+/*    ------------------  boton */
+.search-box input{
+	padding:7px;
+}
+.search-box .fa-search{
+margin-left: -25px;}
+
+.hero .container-fluido{
+	height: 100%;
+	width: 100%
+}
+.estrenos{
+	background-color:white;
+	padding-right: 60px;
+	padding-left: 60px
+}
+section.estrenos img{width: 100%}
+
+
+section.cartelera img{
+	width: 100%;}
+.estrenos{
+	background-color: #FACC2E
+}
+
+.banner{
+	background:#333 url(../img/banner.jpg) no-repeat;
+	background-size: contain;
+	height: 100%}
+
+.estrenos img:first-child{
+	height: 253
+}
+.estrenos{padding-top: 20px}
+
+.trailer iframe{
+	width: 960
+}
+
+
+/*------------------------CONTENIDO---------------------*/
+
+.contenido h1 small{
+	color:#D8D8D8;
+}
+
+
+
+
+
+
+
+
+
+
