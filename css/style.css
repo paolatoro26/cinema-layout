@@ -1,25 +1,81 @@
 *{ font-family: Arial}
-header .col-4{color: white}
+
 .hero{height: 450px}
 .hero .container{height: 100%}
-/*    ------------------  boton */
+
+/*    ------------------  HEADER */
 .search-box input{
 	padding:7px;
 }
+
+header .col-4{
+	position: relative;
+	top:20px;
+	float: right;
+}
+
 .search-box .fa-search{
-margin-left: -25px;}
+margin-left: -25px;
+color:#D8D8D8;
+}
+
+header .col-8 span{
+	color: #D8D8D8;
+	display: inline-block;
+	font-size: 12px;
+	margin: auto;
+	position: relative;
+	bottom: 25px;
+	left: 25px
+}
+
+header .col-8{
+	padding: 0
+}
+
+/*    ------------------ BANNER  */
 
 .hero .container-fluido{
 	height: 100%;
 	width: 100%
 }
-.estrenos{
-	background-color:white;
-	padding-right: 60px;
-	padding-left: 60px
+ section.hero .col-4{
+ 	color: #848484;
+ 	font-family: "Open sans";
+ 	position: relative;
+ 	top: 40px;
+ 	right: 40px
+ }
+
+.hero .col-4 h1{
+	font-size: 35px;
+	color:#D2C9C9
 }
+
+.hero .col-4 hr{
+	width: 220px;
+	margin: 15px 0 25px 0
+}
+
+.hero .col-4 span{
+	border:2px solid #088A29;
+	border-radius: 5px;
+	padding: 7px;
+	color:#088A29;
+	font-size: 12px;
+	margin-right: 5px;
+	
+}
+
+.hero .col-4 table{
+	margin-top: 15px
+}
+
 section.estrenos img{width: 100%}
 
+
+
+/*    ------------------ ESTRENOS */
 
 section.cartelera img{
 	width: 100%;}
@@ -47,6 +103,33 @@ section.cartelera img{
 .contenido h1 small{
 	color:#D8D8D8;
 }
+
+.contenido,.cartelera, footer{
+	width: 80%;
+	margin-left: 10%;
+
+}
+
+.contenido h4 p{
+	font-size: 50px}
+
+.contenido .book{
+	width: 120px;
+	padding: 18px;
+	border-radius: 3px;
+	font-size: 10px;
+	background-color: #D06B24;
+	color: white
+}
+
+
+.contenido .book a{
+	text-decoration:none;
+	
+	color: white
+}
+/*------------------------CARTELERA---------------------*/
+
 
 
 
